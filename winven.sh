@@ -51,5 +51,5 @@ grep MemTotal /proc/meminfo | awk '{print $2,$3}'
 #
 echo ======================================================================
 echo "Disk Information: "
-fdisk -l | grep disk | grep dev
+fdisk -l | grep Disk | grep dev
 # - file end
